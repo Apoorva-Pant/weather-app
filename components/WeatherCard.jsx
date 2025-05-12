@@ -10,7 +10,7 @@ export default function WeatherCard({ weatherData, forecastData }) {
   }
 
   return (
-    <div className="max-w-md mx-auto text-white p-4 rounded-lg backdrop-blur-md bg-white/10">
+    <div className="w-full max-w-md mx-auto text-white p-4 rounded-lg backdrop-blur-md bg-white/10">
       <div className="text-center mb-4">
         <h2 className="text-xl">{weatherData.name}</h2>
         <h1 className="text-6xl font-bold">{Math.round(weatherData.main.temp)}°</h1>
