@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: 'export', // Make static exportable
   images: {
-    unoptimized: true,
+    unoptimized: true, // For GitHub Pages, no Next.js image optimization
   },
-  basePath: '/https://github.com/Apoorva-Pant/weather-app',  // Replace with your repo name
-  assetPrefix: '/weather-app/', 
+  basePath: '', // Leave blank for root deploy
 };
 
 export default nextConfig;
